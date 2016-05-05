@@ -1,6 +1,9 @@
-body {
-  background-color: #e6e619 !important;
-  background-image: url('images/pizza_slice.jpg');
+li {
+  font-size: 30px;
+}
+
+.navbar-brand {
+  font-size: 30px !important;
 }
 
 .holder {
@@ -18,7 +21,19 @@ body {
   text-align: center;
 }
 
-.title_text, .slogan_text {
+button.btn {
+  font-size: 30px;
+}
+
+.title_text {
+  font-size: 70px;
+}
+
+.slogan_text {
+  font-size: 37px;
+}
+
+.title_text_div, .slogan_text_div {
   text-align: center;
 }
 
