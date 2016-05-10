@@ -20,6 +20,9 @@ function carousel() {
 $(document).ready(function() {
   $("a").click(function(event){
     event.preventDefault();
-    $('body').load(this.href);
+    $.ajax({
+      url: this.href,
+      dataType: 'json'
+    })
   });
 });
