@@ -21,8 +21,9 @@ $(document).ready(function() {
   $("a").click(function(event){
     event.preventDefault();
     $.ajax({
-      url: this.href,
-      dataType: 'json'
+      // url: this.href,
+      dataType: 'json',
+      success: function(){ console.log(arguments); }
     })
   });
 });
