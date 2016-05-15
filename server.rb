@@ -1,11 +1,11 @@
 require 'sinatra'
 require 'json'
 
-get '/create_a_pie.html' do
+get '/create_a_pie.json' do
   content_type :json
-  # something goes here
+  { :key1 => 'value1', :key2 => 'value2' }.to_json
 end
 
-get '/look_for_orders.html' do
+get '/look_for_orders.json' do
   content_type :json
 end

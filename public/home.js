@@ -23,7 +23,7 @@ $(document).ready(function() {
     console.log(this.href);
     $.ajax({
       url: this.href,
-      success: function(){ console.log(arguments); }
+      success: function(){ console.log(arguments[0]); }
     })
   });
 });
