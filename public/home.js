@@ -27,7 +27,7 @@ $(document).ready(function() {
         var jsonObject = arguments[0];
         console.log(jsonObject);
         var html = $.parseJSON(jsonObject);
-        console.log(html);
+        console.log(html.Toppings);
       }
     })
   });
