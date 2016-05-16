@@ -23,7 +23,12 @@ $(document).ready(function() {
     console.log(this.href);
     $.ajax({
       url: this.href,
-      success: function(){ console.log(arguments[0]); }
+      success: function(){
+        var jsonObject = arguments[0];
+        console.log(jsonObject);
+        var html = $.parseJSON(jsonObject);
+        console.log(html);
+      }
     })
   });
 });
