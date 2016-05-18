@@ -25,7 +25,15 @@ button.btn {
   font-size: 30px;
 }
 
-.title_text_div, .slogan_text_div {
+#content-container{
+  margin: 0 auto;
+}
+
+#content-container .loader{
+  margin-top: 80px;
+}
+
+#content-container, .title_text_div, .slogan_text_div {
   text-align: center;
 }
 
